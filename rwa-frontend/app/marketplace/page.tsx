@@ -159,9 +159,9 @@ export default function MarketplacePage() {
         <div className="space-y-8">
           {/* Page Header */}
           <div className="space-y-4">
-            <h1 className="text-4xl font-bold">Asset Marketplace</h1>
+            <h1 className="text-4xl font-bold">Tourism Property Marketplace</h1>
             <p className="text-xl text-muted-foreground">
-              Discover tokenized real world assets and start investing today
+              Discover premium hotels and resorts available for tokenized investment
             </p>
           </div>
 

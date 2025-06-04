@@ -53,10 +53,10 @@ export default function Dashboard() {
           <div className="flex flex-col items-center justify-center min-h-[calc(100vh-120px)] space-y-8">
             <div className="text-center space-y-4 max-w-2xl">
               <h1 className="text-4xl font-bold tracking-tight">
-                Real World Asset Investment Platform
+                Premium Tourism Investment Platform
               </h1>
               <p className="text-xl text-muted-foreground">
-                Access tokenized real estate, commodities, and other physical assets 
+                Access tokenized hotels, resorts, and premium tourism facilities 
                 through compliant blockchain technology on Stellar.
               </p>
             </div>
@@ -65,11 +65,11 @@ export default function Dashboard() {
               <Card className="text-center">
                 <CardHeader>
                   <Building2 className="h-12 w-12 mx-auto text-primary" />
-                  <CardTitle className="text-lg">Tokenized Assets</CardTitle>
+                  <CardTitle className="text-lg">Premium Hotels</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground">
-                    Invest in premium real estate and other assets through blockchain tokens
+                    Invest in luxury resorts and boutique hotels through blockchain tokens
                   </p>
                 </CardContent>
               </Card>
@@ -77,11 +77,11 @@ export default function Dashboard() {
               <Card className="text-center">
                 <CardHeader>
                   <CheckCircle className="h-12 w-12 mx-auto text-green-600" />
-                  <CardTitle className="text-lg">Compliant</CardTitle>
+                  <CardTitle className="text-lg">Tourism Licensed</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground">
-                    KYC verification and regulatory compliance built into every transaction
+                    All properties are licensed and comply with tourism regulations
                   </p>
                 </CardContent>
               </Card>
@@ -89,11 +89,11 @@ export default function Dashboard() {
               <Card className="text-center">
                 <CardHeader>
                   <TrendingUp className="h-12 w-12 mx-auto text-blue-600" />
-                  <CardTitle className="text-lg">High Yield</CardTitle>
+                  <CardTitle className="text-lg">Dual Returns</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground">
-                    Earn passive income through rental yields and asset appreciation
+                    Earn from both hotel revenue sharing and property appreciation
                   </p>
                 </CardContent>
               </Card>

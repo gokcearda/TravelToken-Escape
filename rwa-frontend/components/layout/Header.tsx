@@ -98,8 +98,8 @@ export function Header() {
           <Link href="/" className="flex items-center gap-3">
             <Building2 className="h-8 w-8 text-primary" />
             <div>
-              <h1 className="text-lg font-bold">RWA Investor</h1>
-              <p className="text-xs text-muted-foreground">Real World Assets</p>
+              <h1 className="text-lg font-bold">TravelToken Escape</h1>
+              <p className="text-xs text-muted-foreground">Premium Tourism Investments</p>
             </div>
           </Link>
 
