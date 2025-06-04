@@ -1,20 +1,20 @@
-# 🏢 RWA Tokenization Platform
+# 🏨 TravelToken Escape
 
-> **Gerçek Dünya Varlıklarını Tokenize Eden Stellar Tabanlı Platform**
+> **Premium Tourism Investment Platform powered by Stellar Blockchain**
 
-*"Her varlık tokenleştirilebilir, her token değer taşır"*
+*"Every vacation is an investment, every investment is a vacation opportunity"*
 
 ---
 
 ## 🌅 **Proje Özeti**
 
-RWA Tokenization Platform, gerçek dünya varlıklarının (RWA) tokenizasyonunu sağlayan, Stellar blockchain üzerine inşa edilmiş yenilikçi bir platformdur. Platformumuz, varlık sahipleri ile yatırımcıları bir araya getirerek, geleneksel varlıkların dijital dünyada temsil edilmesini ve fraksiyonel sahipliğini mümkün kılar.
+TravelToken Escape, turizm sektöründeki premium varlıkların tokenizasyonunu sağlayan, Stellar blockchain üzerine inşa edilmiş yenilikçi bir platformdur. Platformumuz, otel sahipleri ile yatırımcıları bir araya getirerek, turizm varlıklarının dijital dünyada temsil edilmesini ve fraksiyonel sahipliğini mümkün kılar.
 
 ### **🎯 Tokenize Edilebilir Varlıklar**
-- 🏢 **Ticari Gayrimenkuller** - Ofis binaları, AVM'ler
-- 🏘️ **Konut Projeleri** - Apartmanlar, siteler
-- 🏭 **Endüstriyel Tesisler** - Fabrikalar, depolar
-- 🌐 **Altyapı Projeleri** - Enerji santralleri, lojistik merkezler
+- 🏨 **Resort Oteller** - Lüks sahil otelleri
+- 🏰 **Butik Oteller** - Özel konsept oteller
+- 🏖️ **Beach Club'lar** - Özel plaj kulüpleri
+- 🏔️ **Dağ Otelleri** - Premium kayak tesisleri
 
 ---
 
@@ -124,10 +124,10 @@ npm run build
 
 ## 📞 **İletişim**
 
-- 🌐 **Website**: [Yakında]
-- 📧 **Email**: [Yakında]
+- 🌐 **Website**: [https://gokcearda.com](https://gokcearda.com)
+- 📧 **Email**: ardagokceg@gmail.com
 - 💬 **Discord**: [Yakında]
-- 🐦 **Twitter**: [Yakında]
+- 🐦 **Twitter**: [@sadearda_g](https://x.com/sadearda_g)
 
 ---
 
