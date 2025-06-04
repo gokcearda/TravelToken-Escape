@@ -1,202 +1,148 @@
-# 🏨 TravelToken Escape Market
+# 🏢 RWA Tokenization Platform
 
-> **Premium Tourism Investment Platform powered by Stellar Blockchain**
+> **Gerçek Dünya Varlıklarını Tokenize Eden Stellar Tabanlı Platform**
 
-*"Every vacation is an investment, every investment is a vacation opportunity"*
-
----
-
-## 🌅 **Project Overview**
-
-TravelToken Escape Market is a revolutionary tokenization platform that democratizes tourism investments by enabling fractional ownership of premium hospitality assets. Built on Stellar blockchain, our platform connects hotel owners with global investors, creating new opportunities in the tourism sector.
-
-### **🎯 What We Tokenize**
-- 🏨 **Resort Hotels** - Luxury beachfront resorts
-- 🏩 **Boutique Hotels** - Unique design-focused properties  
-- 🏖️ **Beach Clubs** - Exclusive coastal venues
-- 🏔️ **Mountain Lodges** - Premium alpine retreats
+*"Her varlık tokenleştirilebilir, her token değer taşır"*
 
 ---
 
-## 🚀 **Key Features**
+## 🌅 **Proje Özeti**
 
-### **For Hotel Owners**
-- 💰 **Early Financing** - Secure funding before construction
-- 🌍 **Global Investor Access** - Reach international markets
-- 📊 **Fair Valuation** - Transparent pricing mechanisms
-- 🔧 **Modernization Support** - Upgrade existing properties
+RWA Tokenization Platform, gerçek dünya varlıklarının (RWA) tokenizasyonunu sağlayan, Stellar blockchain üzerine inşa edilmiş yenilikçi bir platformdur. Platformumuz, varlık sahipleri ile yatırımcıları bir araya getirerek, geleneksel varlıkların dijital dünyada temsil edilmesini ve fraksiyonel sahipliğini mümkün kılar.
 
-### **For Tourism Investors**
-- 🏖️ **Premium Access** - Invest in exclusive hospitality assets
-- 📈 **Revenue Sharing** - Earn from hotel operations
-- 🎫 **Booking Benefits** - Discounted stays at owned properties
-- 🔒 **Transparent Ownership** - Blockchain-verified shares
-
-### **For Travel Enthusiasts**
-- 🏨 **Ownership Rights** - Own shares in favorite hotels
-- 💸 **Exclusive Discounts** - Member pricing on accommodations  
-- 🎯 **Priority Access** - First dibs on new properties
-- 🌟 **VIP Experience** - Special perks and amenities
+### **🎯 Tokenize Edilebilir Varlıklar**
+- 🏢 **Ticari Gayrimenkuller** - Ofis binaları, AVM'ler
+- 🏘️ **Konut Projeleri** - Apartmanlar, siteler
+- 🏭 **Endüstriyel Tesisler** - Fabrikalar, depolar
+- 🌐 **Altyapı Projeleri** - Enerji santralleri, lojistik merkezler
 
 ---
 
-## 🛠️ **Tech Stack**
+## 🚀 **Temel Özellikler**
+
+### **Varlık Sahipleri İçin**
+- 💰 **Erken Finansman** - Projelere hızlı finansman sağlama
+- 🌍 **Global Yatırımcı Ağı** - Dünya çapında yatırımcılara erişim
+- 📊 **Şeffaf Değerleme** - Adil ve açık değerleme mekanizması
+- ⚖️ **Yasal Uyumluluk** - Tam regülasyon uyumluluğu
+
+### **Yatırımcılar İçin**
+- 🏢 **Fraksiyonel Sahiplik** - Küçük birimlerle yatırım imkanı
+- 📈 **Gelir Paylaşımı** - Kira ve değer artış geliri
+- 🔄 **İkincil Piyasa** - Token alım-satım imkanı
+- 🔒 **Güvenli Altyapı** - Blockchain garantili sahiplik
+
+---
+
+## 🛠️ **Teknoloji Altyapısı**
 
 ### **Frontend**
-- ⚡ **Next.js 14** - React framework with App Router
-- 🎨 **TypeScript** - Type-safe development
-- 💅 **Tailwind CSS** - Utility-first styling
-- 🧩 **Shadcn/ui** - Modern UI components
-- 🎯 **Lucide React** - Beautiful icons
+- ⚡ **Next.js 14** - App Router ile modern web arayüzü
+- 🎨 **TypeScript** - Tip güvenliği
+- 💅 **Tailwind CSS** - Özelleştirilebilir tasarım
+- 🧩 **Shadcn/ui** - Hazır UI bileşenleri
+- 🎯 **Lucide React** - İkon kütüphanesi
 
 ### **Blockchain**
-- ⭐ **Stellar Network** - Fast, low-cost transactions
-- 🪙 **Soroban Smart Contracts** - Rust-based contract logic
-- 🔐 **Freighter Wallet** - Secure wallet integration
+- ⭐ **Stellar Network** - Hızlı ve düşük maliyetli işlemler
+- 🔧 **Soroban Smart Contracts** - Rust tabanlı akıllı kontratlar
+- 🔐 **Freighter Wallet** - Güvenli cüzdan entegrasyonu
 
-### **Design System**
-- 🎨 **Primary**: Turquoise (#20B2AA)
-- 🏖️ **Secondary**: Beige (#F5DEB3) 
-- 🌅 **Accent**: Sunset Orange (#FF6347)
-- ☁️ **Background**: Cloud White (#F8F8FF)
-- 🌊 **Text**: Sea Gray (#2F4F4F)
-
----
-
-## 📁 **Project Structure**
-
-```
-traveltoken-escape-market/
-├── app/
-│   ├── page.tsx                 # Tourism Dashboard
-│   ├── marketplace/page.tsx     # Hotel Marketplace
-│   ├── tokenize/page.tsx       # Property Tokenization
-│   ├── transfer/page.tsx       # Share Transfer
-│   └── layout.tsx              # App Layout
-├── components/
-│   ├── layout/Header.tsx       # Navigation
-│   ├── ui/                     # Shadcn components
-│   └── dashboard/              # Dashboard widgets
-├── lib/
-│   ├── types.ts               # Tourism asset types
-│   ├── contract.ts            # Mock hotel data
-│   └── utils.ts               # Utilities
-└── contracts/                 # Stellar/Soroban contracts
-```
+### **Tasarım Sistemi**
+- 🎨 **Ana Renk**: Lacivert (#000080)
+- 💫 **İkincil Renk**: Altın (#FFD700)
+- 🌟 **Vurgu**: Kırmızı (#FF0000)
+- ⚪ **Arkaplan**: Beyaz (#FFFFFF)
+- ⚫ **Metin**: Siyah (#000000)
 
 ---
 
-## 🏖️ **Platform Sections**
+## 📁 **Proje Yapısı**
 
-### **🏠 Tourism Dashboard**
-Track your hospitality investment portfolio:
-- 📊 **Tourism Portfolio** - Total invested value
-- 🏨 **Supported Properties** - Hotels you've invested in  
-- ⚡ **Active Hotels** - Currently operating assets
-- 📋 **Tourism License Status** - Compliance tracking
+```
+rwa-temp/
+├── Cargo.toml                  # Rust projesi yapılandırması
+├── src/                       # Soroban kontrat kodları
+│   ├── lib.rs                # Ana kontrat kodu
+│   └── test.rs               # Kontrat testleri
+├── rwa-frontend/             # Next.js Frontend Uygulaması
+│   ├── app/                  # Next.js 14 App Router
+│   │   ├── page.tsx         # Ana sayfa
+│   │   ├── dashboard/       # Dashboard sayfası
+│   │   ├── marketplace/     # Varlık pazaryeri
+│   │   ├── tokenize/        # Tokenizasyon sayfası
+│   │   └── transfer/        # Transfer sayfası
+│   ├── components/          # React bileşenleri
+│   │   ├── layout/         # Layout bileşenleri
+│   │   └── ui/            # UI bileşenleri
+│   ├── lib/                # Yardımcı fonksiyonlar
+│   │   ├── contract.ts    # Kontrat entegrasyonları
+│   │   ├── stellar.ts     # Stellar işlemleri
+│   │   ├── types.ts       # Tip tanımlamaları
+│   │   └── utils.ts       # Genel yardımcı fonksiyonlar
+│   └── stores/            # Durum yönetimi
+│       ├── contract.ts    # Kontrat durumu
+│       └── wallet.ts      # Cüzdan durumu
+└── target/                # Derleme çıktıları
+```
 
-### **🏪 Hotel Marketplace** 
-Discover and invest in premium properties:
-- 🔍 **Smart Filters** - By location, type, rating, certification
-- 🏖️ **Location Coverage** - Antalya, Bodrum, Cappadocia, Istanbul
-- 🏆 **Quality Certifications** - Blue Flag, Green Key, TripAdvisor Excellence
-- 💎 **Asset Types** - Resort, Boutique, Beach Club, Mountain Lodge
+---
 
-### **🌱 Property Tokenization**
-List your hospitality business in 5 steps:
-1. **Property Info** - Basic hotel details and location
-2. **Hotel Details** - Rooms, amenities, concept, target market  
-3. **Tourism License & Documents** - Legal compliance verification
-4. **Investment Plan** - Valuation, pricing, revenue sharing model
-5. **Launch Property** - Go live on marketplace
+## 🔐 **Güvenlik ve Uyumluluk**
 
-### **💸 Share Transfer**
-Seamlessly transfer hotel ownership:
-- 🔄 **Hotel Share Transfer** - Move ownership between parties
-- 👤 **New Owner Details** - Secure recipient verification  
-- 📊 **Share Amount** - Precise fractional transfers
-- ✅ **Tourism License Check** - Automated compliance validation
+- ✅ **SPK Uyumluluğu** - Sermaye piyasası düzenlemeleri
+- 🛡️ **Akıllı Kontrat Denetimi** - Güvenli Soroban implementasyonu
+- 🔒 **KYC/AML Süreçleri** - Müşteri tanıma sistemi
+- 📋 **ISO 27001** - Bilgi güvenliği standartları
 
 ---
 
 ## 🌍 **Deployment**
 
-### **Live on Stellar Network**
-🔗 **Platform URL**: `[Your Stellar Deployment URL]`
-⭐ **Network**: Stellar Mainnet/Testnet
-🏨 **Contract Address**: `[Your Soroban Contract ID]`
+### **Stellar Network Üzerinde**
+🔗 **Platform URL**: `[Stellar Deployment URL]`
+⭐ **Network**: Stellar Testnet
+🏢 **Kontrat Adresi**: `[Soroban Kontrat ID]`
 
-### **Quick Start**
+### **Hızlı Başlangıç**
 ```bash
-# Clone repository
-git clone [your-repo-url]
-cd traveltoken-escape-market
+# Depoyu klonla
+git clone [repo-url]
+cd rwa-tokenization
 
-# Install dependencies  
+# Bağımlılıkları yükle
 npm install
 
-# Run development server
+# Geliştirme sunucusunu başlat
 npm run dev
 
-# Build for production
+# Prodüksiyon build
 npm run build
 ```
 
 ---
 
-## 📊 **Sample Properties**
+## 📞 **İletişim**
 
-### **🏖️ Sunset Beach Resort**
-- **Location**: Antalya, Turkey
-- **Type**: 5-star Ultra All-Inclusive Resort  
-- **Capacity**: 200 rooms with private beach
-- **Token**: SNST - $25 USDC per token
-- **Status**: 65% funded, Opening April 2025
+- 🌐 **Website**: [Yakında]
+- 📧 **Email**: [Yakında]
+- 💬 **Discord**: [Yakında]
+- 🐦 **Twitter**: [Yakında]
 
 ---
 
-## 🔐 **Security & Compliance**
+## 📜 **Lisans**
 
-- ✅ **Tourism License Verification** - All properties legally compliant
-- 🛡️ **Smart Contract Audited** - Secure Soroban implementation  
-- 🔒 **KYC/AML Ready** - Investor verification systems
-- 📋 **Regulatory Compliance** - Tourism industry standards
-
----
-
-## 🤝 **Contributing**
-
-We welcome contributions to improve the platform:
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/hotel-analytics`)
-3. Commit changes (`git commit -m 'Add hotel analytics dashboard'`)
-4. Push to branch (`git push origin feature/hotel-analytics`)  
-5. Open Pull Request
-
----
-
-## 📞 **Contact & Support**
-
-- 🌐 **Website**: [Your Website URL]
-- 📧 **Email**: contact@traveltokenescape.com
-- 💬 **Discord**: [Your Discord Server]
-- 🐦 **Twitter**: [@TravelTokenEscape](https://twitter.com/traveltokenescape)
-
----
-
-## 📜 **License**
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için [LICENSE](LICENSE) dosyasına bakınız.
 
 ---
 
 <div align="center">
 
-**🚀 Democratizing Tourism Investments on Stellar Blockchain 🏨**
+**🚀 Gerçek Dünya Varlıklarını Blockchain'de Tokenize Ediyoruz 🏢**
 
-*Built with ❤️ for the future of hospitality investments*
+*Geleceğin yatırım platformu için ❤️ ile geliştirildi*
 
-**⭐ Star this repo if you believe in tokenized tourism! ⭐**
+**⭐ Tokenize geleceğe inanıyorsanız bu repoyu yıldızlayın! ⭐**
 
 </div>
