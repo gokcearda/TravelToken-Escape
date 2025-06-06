@@ -6,143 +6,144 @@
 
 ---
 
-## 🌅 **Proje Özeti**
+## 🌅 **Project Overview**
 
-TravelToken Escape, turizm sektöründeki premium varlıkların tokenizasyonunu sağlayan, Stellar blockchain üzerine inşa edilmiş yenilikçi bir platformdur. Platformumuz, otel sahipleri ile yatırımcıları bir araya getirerek, turizm varlıklarının dijital dünyada temsil edilmesini ve fraksiyonel sahipliğini mümkün kılar.
+TravelToken Escape is an innovative platform built on Stellar blockchain that enables tokenization of premium tourism assets. Our platform connects hotel owners with investors, making it possible to represent and fractionally own tourism assets in the digital world.
 
-### **🎯 Tokenize Edilebilir Varlıklar**
-- 🏨 **Resort Oteller** - Lüks sahil otelleri
-- 🏰 **Butik Oteller** - Özel konsept oteller
-- 🏖️ **Beach Club'lar** - Özel plaj kulüpleri
-- 🏔️ **Dağ Otelleri** - Premium kayak tesisleri
-
----
-
-## 🚀 **Temel Özellikler**
-
-### **Varlık Sahipleri İçin**
-- 💰 **Erken Finansman** - Projelere hızlı finansman sağlama
-- 🌍 **Global Yatırımcı Ağı** - Dünya çapında yatırımcılara erişim
-- 📊 **Şeffaf Değerleme** - Adil ve açık değerleme mekanizması
-- ⚖️ **Yasal Uyumluluk** - Tam regülasyon uyumluluğu
-
-### **Yatırımcılar İçin**
-- 🏢 **Fraksiyonel Sahiplik** - Küçük birimlerle yatırım imkanı
-- 📈 **Gelir Paylaşımı** - Kira ve değer artış geliri
-- 🔄 **İkincil Piyasa** - Token alım-satım imkanı
-- 🔒 **Güvenli Altyapı** - Blockchain garantili sahiplik
+### **🎯 Tokenizable Assets**
+- 🏨 **Resort Hotels** - Luxury beachfront resorts
+- 🏰 **Boutique Hotels** - Unique concept hotels
+- 🏖️ **Beach Clubs** - Exclusive beach venues
+- 🏔️ **Mountain Hotels** - Premium ski resorts
 
 ---
 
-## 🛠️ **Teknoloji Altyapısı**
+## 🚀 **Key Features**
+
+### **For Property Owners**
+- 💰 **Early Financing** - Quick funding for projects
+- 🌍 **Global Investor Network** - Access to worldwide investors
+- 📊 **Transparent Valuation** - Fair and open valuation mechanism
+- ⚖️ **Legal Compliance** - Full regulatory compliance
+
+### **For Investors**
+- 🏢 **Fractional Ownership** - Invest with small units
+- 📈 **Revenue Sharing** - Rental and appreciation income
+- 🔄 **Secondary Market** - Token trading capability
+- 🔒 **Secure Infrastructure** - Blockchain-guaranteed ownership
+
+---
+
+## 🛠️ **Technology Stack**
 
 ### **Frontend**
-- ⚡ **Next.js 14** - App Router ile modern web arayüzü
-- 🎨 **TypeScript** - Tip güvenliği
-- 💅 **Tailwind CSS** - Özelleştirilebilir tasarım
-- 🧩 **Shadcn/ui** - Hazır UI bileşenleri
-- 🎯 **Lucide React** - İkon kütüphanesi
+- ⚡ **Next.js 14** - Modern web interface with App Router
+- 🎨 **TypeScript** - Type safety
+- 💅 **Tailwind CSS** - Customizable design
+- 🧩 **Shadcn/ui** - Ready-to-use UI components
+- 🎯 **Lucide React** - Icon library
 
 ### **Blockchain**
-- ⭐ **Stellar Network** - Hızlı ve düşük maliyetli işlemler
-- 🔧 **Soroban Smart Contracts** - Rust tabanlı akıllı kontratlar
-- 🔐 **Freighter Wallet** - Güvenli cüzdan entegrasyonu
+- ⭐ **Stellar Network** - Fast and low-cost transactions
+- 🔧 **Soroban Smart Contracts** - Rust-based smart contracts
+- 🔐 **Freighter Wallet** - Secure wallet integration
 
-### **Tasarım Sistemi**
-- 🎨 **Ana Renk**: Lacivert (#000080)
-- 💫 **İkincil Renk**: Altın (#FFD700)
-- 🌟 **Vurgu**: Kırmızı (#FF0000)
-- ⚪ **Arkaplan**: Beyaz (#FFFFFF)
-- ⚫ **Metin**: Siyah (#000000)
+### **Design System**
+- 🎨 **Primary**: Navy (#000080)
+- 💫 **Secondary**: Gold (#FFD700)
+- 🌟 **Accent**: Red (#FF0000)
+- ⚪ **Background**: White (#FFFFFF)
+- ⚫ **Text**: Black (#000000)
 
 ---
 
-## 📁 **Proje Yapısı**
+## 📁 **Project Structure**
 
 ```
 rwa-temp/
-├── Cargo.toml                  # Rust projesi yapılandırması
-├── src/                       # Soroban kontrat kodları
-│   ├── lib.rs                # Ana kontrat kodu
-│   └── test.rs               # Kontrat testleri
-├── rwa-frontend/             # Next.js Frontend Uygulaması
+├── Cargo.toml                  # Rust project configuration
+├── src/                       # Soroban contract code
+│   ├── lib.rs                # Main contract code
+│   └── test.rs               # Contract tests
+├── rwa-frontend/             # Next.js Frontend Application
 │   ├── app/                  # Next.js 14 App Router
-│   │   ├── page.tsx         # Ana sayfa
-│   │   ├── dashboard/       # Dashboard sayfası
-│   │   ├── marketplace/     # Varlık pazaryeri
-│   │   ├── tokenize/        # Tokenizasyon sayfası
-│   │   └── transfer/        # Transfer sayfası
-│   ├── components/          # React bileşenleri
-│   │   ├── layout/         # Layout bileşenleri
-│   │   └── ui/            # UI bileşenleri
-│   ├── lib/                # Yardımcı fonksiyonlar
-│   │   ├── contract.ts    # Kontrat entegrasyonları
-│   │   ├── stellar.ts     # Stellar işlemleri
-│   │   ├── types.ts       # Tip tanımlamaları
-│   │   └── utils.ts       # Genel yardımcı fonksiyonlar
-│   └── stores/            # Durum yönetimi
-│       ├── contract.ts    # Kontrat durumu
-│       └── wallet.ts      # Cüzdan durumu
-└── target/                # Derleme çıktıları
+│   │   ├── page.tsx         # Home page
+│   │   ├── dashboard/       # Dashboard page
+│   │   ├── marketplace/     # Asset marketplace
+│   │   ├── tokenize/        # Tokenization page
+│   │   └── transfer/        # Transfer page
+│   ├── components/          # React components
+│   │   ├── layout/         # Layout components
+│   │   └── ui/            # UI components
+│   ├── lib/                # Helper functions
+│   │   ├── contract.ts    # Contract integrations
+│   │   ├── stellar.ts     # Stellar operations
+│   │   ├── types.ts       # Type definitions
+│   │   └── utils.ts       # General utilities
+│   └── stores/            # State management
+│       ├── contract.ts    # Contract state
+│       └── wallet.ts      # Wallet state
+└── target/                # Build outputs
 ```
 
 ---
 
-## 🔐 **Güvenlik ve Uyumluluk**
+## 🔐 **Security & Compliance**
 
-- ✅ **SPK Uyumluluğu** - Sermaye piyasası düzenlemeleri
-- 🛡️ **Akıllı Kontrat Denetimi** - Güvenli Soroban implementasyonu
-- 🔒 **KYC/AML Süreçleri** - Müşteri tanıma sistemi
-- 📋 **ISO 27001** - Bilgi güvenliği standartları
+- ✅ **CMB Compliance** - Capital markets regulations
+- 🛡️ **Smart Contract Audit** - Secure Soroban implementation
+- 🔒 **KYC/AML Processes** - Customer verification system
+- 📋 **ISO 27001** - Information security standards
 
 ---
 
 ## 🌍 **Deployment**
 
-### **Stellar Network Üzerinde**
-🔗 **Platform URL**: `[Stellar Deployment URL]`
+### **On Stellar Network**
+🔗 **Platform URL**: [https://stellar.expert/explorer/testnet/contract/CCHFFOR26QEXV3ZXYIMN5J6BLICCWDXVIHGEDU5TLFSUITLSJYFYDKXU](https://stellar.expert/explorer/testnet/contract/CCHFFOR26QEXV3ZXYIMN5J6BLICCWDXVIHGEDU5TLFSUITLSJYFYDKXU)
 ⭐ **Network**: Stellar Testnet
-🏢 **Kontrat Adresi**: `[Soroban Kontrat ID]`
+🏢 **Contract Address**: `CCHFFOR26QEXV3ZXYIMN5J6BLICCWDXVIHGEDU5TLFSUITLSJYFYDKXU`
+👤 **Account Public Key**: `GCDRPGHJDQVEILIK56EU6NA5S7KZU6FH2MEZPYA7EPUJX4LLGAS5RSAB`
 
-### **Hızlı Başlangıç**
+### **Quick Start**
 ```bash
-# Depoyu klonla
+# Clone repository
 git clone [repo-url]
-cd rwa-tokenization
+cd rwa-temp
 
-# Bağımlılıkları yükle
+# Install dependencies
 npm install
 
-# Geliştirme sunucusunu başlat
+# Start development server
 npm run dev
 
-# Prodüksiyon build
+# Production build
 npm run build
 ```
 
 ---
 
-## 📞 **İletişim**
+## 📞 **Contact**
 
 - 🌐 **Website**: [https://gokcearda.com](https://gokcearda.com)
 - 📧 **Email**: ardagokceg@gmail.com
-- 💬 **Discord**: [Yakında]
+- 💬 **Discord**: [Coming Soon]
 - 🐦 **Twitter**: [@sadearda_g](https://x.com/sadearda_g)
 
 ---
 
-## 📜 **Lisans**
+## 📜 **License**
 
-Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için [LICENSE](LICENSE) dosyasına bakınız.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
 
-**🚀 Gerçek Dünya Varlıklarını Blockchain'de Tokenize Ediyoruz 🏢**
+**🚀 Tokenizing Tourism Assets on the Blockchain 🏨**
 
-*Geleceğin yatırım platformu için ❤️ ile geliştirildi*
+*Built with ❤️ for the future of tourism investments*
 
-**⭐ Tokenize geleceğe inanıyorsanız bu repoyu yıldızlayın! ⭐**
+**⭐ Star this repo if you believe in tokenized tourism! ⭐**
 
 </div>
